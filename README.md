@@ -100,7 +100,7 @@ chmod +x scripts/verify_modules.sh
 | 5. Web 与存储 | 1～2 月 | `06_`、`07_` | Gin + SQL/GORM CRUD | 独立完成带校验的 REST + DB |
 | 6. 缓存与消息 | 2～4 周 | `08_`、`09_` | 接到上阶段项目 | 会缓存查询；理解异步与幂等 |
 | 7. 微服务与观测 | 1～2 月 | `10_`、`12_`、`13_` | gRPC + 可观测 + 毕业项目 | 作品集可演示；能看 pprof/指标 |
-| 8. 顶尖精通 | 持续 | `14→17→16→15→18→19` | 生产/中间件/并发运行时/云原生/架构 | 各方向能讲清原理并对照真实组件 |
+| 8. 顶尖精通 | 持续 | `14→16→17→15→18→19`（Go 专用，勿照搬 Java） | 生产 → 并发深挖 → 中间件 → 运行时 → 云原生 → 架构 | 各方向能讲清原理并对照真实组件 |
 
 ## 三、用 Cursor 全自动生成（rules + skill）
 
@@ -135,9 +135,10 @@ chmod +x scripts/verify_modules.sh
 11_testing →
 12_observability →
 13_project_capstone →
+（以下为 Go 精通线，顺序勿改成 Java 的 14→17→16→…）
 14_production_go →
-17_data_infra →
 16_concurrency_advanced →
+17_data_infra →
 15_runtime_advanced →
 18_cloud_native →
 19_architecture
@@ -156,9 +157,18 @@ chmod +x scripts/verify_modules.sh
 ### 精通线追加 Prompt
 
 ```text
-请帮我全自动推进14 → 17 → 16 → 15 → 18 → 19，保证全面，细节完美。
+请帮我全自动推进14 → 16 → 17 → 15 → 18 → 19，保证全面，细节完美。
+（这是 Go 专用精通顺序：生产 → 并发深挖 → 数据中间件 → 运行时 → 云原生 → 架构；不要用 Java 仓的 14→17→16→15→18→19。）
 严格按 go-study-generator 与 kgo-learning-standards：每阶段 verify 全绿后单独 commit，全部完成再 push，不要 force push。
 ```
+
+### 为何精通线不是 Java 那套？
+
+| | Java (`kjv`) | Go (`kgo`) |
+| --- | --- | --- |
+| 编号 `00`～`19` | 阶段目录骨架 | **可对齐**（方便跨语言对照） |
+| 精通顺序 | `14→17→16→15→18→19` | **`14→16→17→15→18→19`** |
+| 差异原因 | 先巩固数据层再挖 JUC/JVM | Go 并发是语言核心，应早于运行时深挖；运行时在大量并发实践后再学更合适 |
 
 ## 四、和 kjv / kpy / kts 的关系
 
