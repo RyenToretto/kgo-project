@@ -14,20 +14,20 @@ Go **从零到顶尖精通**的个人学习仓库。前提：你是 **Go 小白*
 | `03_concurrency/` | 阶段 3 | goroutine / channel / Context | ✅ 已生成（6 课） |
 | `04_stdlib_http/` | 阶段 4 | 标准库 net/http | ✅ 已生成（4 课） |
 | `05_modules_tooling/` | 阶段 4 | go mod 与工程工具链 | ✅ 已生成（3 课） |
-| `06_web_gin/` | 阶段 5 | Gin Web API | 📝 待生成 |
-| `07_persistence/` | 阶段 5 | database/sql 与 GORM | 📝 待生成 |
-| `08_redis/` | 阶段 6 | Redis（go-redis） | 📝 待生成 |
-| `09_message_queue/` | 阶段 6 | 消息队列入门 | 📝 待生成 |
-| `10_grpc_microservices/` | 阶段 7 | gRPC 与微服务心智 | 📝 待生成 |
-| `11_testing/` | 穿插 | testing / benchmark / mock | 📝 待生成 |
-| `12_observability/` | 阶段 7 | pprof / Prometheus / OTel | 📝 待生成 |
-| `13_project_capstone/` | 毕业 | 综合小项目 | 📝 待生成 |
-| `14_production_go/` | 精通 | 生产级工程实践 | 📝 待生成 |
-| `15_runtime_advanced/` | 精通 | 运行时 / GC / 诊断 | 📝 待生成 |
-| `16_concurrency_advanced/` | 精通 | 并发深挖 | 📝 待生成 |
-| `17_data_infra/` | 精通 | 数据与中间件深挖 | 📝 待生成 |
-| `18_cloud_native/` | 精通 | 云原生 | 📝 待生成 |
-| `19_architecture/` | 精通 | 架构与 SRE | 📝 待生成 |
+| `06_web_gin/` | 阶段 5 | Gin Web API | ✅ 已生成（4 课） |
+| `07_persistence/` | 阶段 5 | database/sql 与 GORM | ✅ 已生成（4 课） |
+| `08_redis/` | 阶段 6 | Redis（go-redis） | ✅ 已生成（3 课） |
+| `09_message_queue/` | 阶段 6 | 消息队列入门 | ✅ 已生成（3 课） |
+| `10_grpc_microservices/` | 阶段 7 | gRPC 与微服务心智 | ✅ 已生成（3 课） |
+| `11_testing/` | 穿插 | testing / benchmark / mock | ✅ 已生成（4 课） |
+| `12_observability/` | 阶段 7 | pprof / Prometheus / OTel | ✅ 已生成（3 课） |
+| `13_project_capstone/` | 毕业 | 综合小项目 | ✅ 已生成（1 课） |
+| `14_production_go/` | 精通 | 生产级工程实践 | ✅ 已生成（5 课） |
+| `15_runtime_advanced/` | 精通 | 运行时 / GC / 诊断 | ✅ 已生成（4 课） |
+| `16_concurrency_advanced/` | 精通 | 并发深挖 | ✅ 已生成（5 课） |
+| `17_data_infra/` | 精通 | 数据与中间件深挖 | ✅ 已生成（5 课） |
+| `18_cloud_native/` | 精通 | 云原生 | ✅ 已生成（4 课） |
+| `19_architecture/` | 精通 | 架构与 SRE | ✅ 已生成（5 课） |
 
 ## 环境
 
