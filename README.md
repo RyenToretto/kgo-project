@@ -8,7 +8,7 @@ Go **从零到顶尖精通**的个人学习仓库。前提：你是 **Go 小白*
 
 | 路径 | 阶段 | 内容 | 状态 |
 | --- | --- | --- | --- |
-| `00_go_basics/` | 阶段 1 | Go 语法入门 | 🌱 已有种子课，待全量生成 |
+| `00_go_basics/` | 阶段 1 | Go 语法入门 | ✅ 已生成（6 课） |
 | `01_idiomatic_go/` | 阶段 2 | 地道 Go（error/接口/组合） | 📝 待生成 |
 | `02_data_structures/` | 阶段 2 | slice/map/string 与泛型 | 📝 待生成 |
 | `03_concurrency/` | 阶段 3 | goroutine / channel / Context | 📝 待生成 |
