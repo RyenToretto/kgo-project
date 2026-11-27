@@ -60,14 +60,21 @@ func main() {
 - **目标**: ...
 - **前置**: ...
 - **环境**: Go 最新稳定版；`./scripts/verify_modules.sh NN_slug`
-- **推荐资料（明文 URL）**:
+- **推荐资料（明文 URL，已核验）**:
   - https://...
+  （完整包见 `.cursor/skills/go-study-generator/references/resources.md`）
 
 ## 章节进度
 
 | 编号 | 文件 | 核心点 | 状态 |
 | --- | --- | --- | --- |
 | `00_` | ... | ... | ✅ / 📝 |
+
+## 本阶段知识点资料包（明文 URL）
+
+| 知识点 | 明文 URL |
+| --- | --- |
+| ... | https://... |
 
 **本目录总课数：N（已完成 x，待生成 y）**
 ```

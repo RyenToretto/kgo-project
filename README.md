@@ -106,8 +106,10 @@ chmod +x scripts/verify_modules.sh
 
 | 类型 | 路径 | 作用 |
 | --- | --- | --- |
-| Rule | `.cursor/rules/kgo-learning-standards.mdc` | 编号、`L00_`、小白友好、verify、明文链接 |
+| Rule | `.cursor/rules/kgo-learning-standards.mdc` | 编号、`L00_`、小白友好、verify、明文链接、顶尖精通终点 |
 | Skill | `.cursor/skills/go-study-generator/SKILL.md` | 按阶段生成课、模板、分批提交 |
+| 课表 | `.cursor/skills/go-study-generator/references/roadmap.md` | 各阶段课表明细与精通顺序 |
+| 资料包 | `.cursor/skills/go-study-generator/references/resources.md` | 已 HTTP 核验的明文 URL（文档/书/视频） |
 
 **用法：** Cursor 打开 **`kgo-project` 根目录**，粘贴下面「全自动 Prompt」。
 
