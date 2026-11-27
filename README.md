@@ -11,9 +11,9 @@ Go **从零到顶尖精通**的个人学习仓库。前提：你是 **Go 小白*
 | `00_go_basics/` | 阶段 1 | Go 语法入门 | ✅ 已生成（6 课） |
 | `01_idiomatic_go/` | 阶段 2 | 地道 Go（error/接口/组合） | ✅ 已生成（5 课） |
 | `02_data_structures/` | 阶段 2 | slice/map/string 与泛型 | ✅ 已生成（4 课） |
-| `03_concurrency/` | 阶段 3 | goroutine / channel / Context | 📝 待生成 |
-| `04_stdlib_http/` | 阶段 4 | 标准库 net/http | 📝 待生成 |
-| `05_modules_tooling/` | 阶段 4 | go mod 与工程工具链 | 📝 待生成 |
+| `03_concurrency/` | 阶段 3 | goroutine / channel / Context | ✅ 已生成（6 课） |
+| `04_stdlib_http/` | 阶段 4 | 标准库 net/http | ✅ 已生成（4 课） |
+| `05_modules_tooling/` | 阶段 4 | go mod 与工程工具链 | ✅ 已生成（3 课） |
 | `06_web_gin/` | 阶段 5 | Gin Web API | 📝 待生成 |
 | `07_persistence/` | 阶段 5 | database/sql 与 GORM | 📝 待生成 |
 | `08_redis/` | 阶段 6 | Redis（go-redis） | 📝 待生成 |
